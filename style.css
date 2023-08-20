@@ -1,0 +1,123 @@
+
+*{
+     font-family: 'Libre Baskerville', serif;
+     width: 100vw;
+     overflow-x: hidden;
+}
+body{
+    padding:0px;
+    margin:0px;
+}
+
+h1,p{
+    margin: 0px;
+    Padding: 0px;
+    
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+}
+main{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.photo1{
+    height: 40%;
+    width: 100px;
+    padding: 20px;
+    position: relative;
+    top: 20px;
+    left: 600px;
+}
+.photo1 img{
+height: 100px;
+width: 100px;
+}
+
+.title{
+    width: 200px;
+    Display: Flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-self: center;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Libre Baskerville', serif;
+    padding: 10px;
+    font-size: 20px;
+    ;
+}
+
+.about{
+    width: 500px;
+    Display:Flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-top: 50px;
+    font-family: 'Caveat', cursive;
+    
+   gap: 5px;
+}
+
+.ab0{
+    color: #e7769f;
+    text-shadow: 1px 1px 2px #000000;
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+
+}
+.ab1{
+    margin-top: 10px;
+    width: 300px;
+    font-size: 17px;
+    display:flex;
+    justify-content: flex-start;
+    color:rgba(68, 56, 56, 0.914);
+    font-family: 'Libre Baskerville', serif;
+    
+}
+.ab3{
+    margin-top: 5px;
+    width: 300px;
+    font-size: 17px;
+    display:flex;
+    justify-content: flex-start;
+    color:rgba(68, 56, 56, 0.914);
+}
+
+.ab2{
+    margin-top: 5px;
+    width: 300px;
+    font-size: 17px;
+    display:flex;
+    justify-content: flex-start;
+    color:rgba(68, 56, 56, 0.914);
+}
+
+.ab4{
+    margin-top: 5px;
+    width: 300px;
+    font-size: 17px;
+    display:flex;
+    justify-content: flex-start;
+    color:rgba(68, 56, 56, 0.914);
+}
+.ab5{
+    margin-top: 5px;
+    width: 300px;
+    font-size: 35px;
+    display:flex;
+    justify-content: flex-start;
+     gap: 10px;
+    color:rgba(68, 56, 56, 0.914);
+}
