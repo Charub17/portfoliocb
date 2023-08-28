@@ -13,7 +13,6 @@ body {
     border-radius: 4px;
     padding: 4px 8px;
     font-size: 15px;
-
 }
 
 h1, h2, h3, h4, p {
@@ -23,10 +22,11 @@ h1, h2, h3, h4, p {
 
 .container {
     height: 100vh;
-    width: 100vw;
+    width: auto;
     display: flex;
     flex-direction: column;
     margin: 0px 32px;
+    border-bottom: 1px solid #ebebeb;
     
 }
 
@@ -100,10 +100,6 @@ main img {
 padding: 50px 90px;
 }
 
-.heading2 h2{
-
-}
-
 .cir1{
     background-color: rgb(215, 205, 205);
     height: 28px;
@@ -112,9 +108,19 @@ padding: 50px 90px;
     margin-left: 80px;
     
 }
+.cir2{
+    background-color: red;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-left: 80px;
+    
+}
+
+
 .timeline{
     height: 200px;
-    width:100vw;
+    width: auto;
     border-left: 2px solid rgb(191, 183, 183);
     margin-left: 93px;
 }  
@@ -131,14 +137,127 @@ padding: 50px 90px;
 .content h3{
     font-family: 'Crete Round', serif;
 }
+
 .content p{
-  
   color:rgb(90, 82, 82);
-    font-size: 17px;
-  
+font-size: 17px;
 }
-hr{
-    height: 1px;
-    background-color: #ebebeb;
-    border: none;
+
+.container2{
+    margin: 2px 32px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+
+
+.container3{
+    height: 100vh;
+    width: auto;
+    margin: 2px 32px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.heading3{
+    padding: 50px 90px;
+    }
+
+.title-image1{
+    height: 250px;
+    padding: 50px 30px 0px 30px;
+}
+
+.title-image2{
+    height: 250px;
+    width: 380px;
+    padding: 50px 30px 0px 30px;
+}
+.img1{
+    width: 800px;
+}
+
+.img2{
+    width: 800px;
+}
+.title{
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    color:rgb(90, 82, 82);
+}
+
+.con1{
+    color:rgb(90, 82, 82);
+}
+
+.container4{
+    margin: 2px 32px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.heading4{
+    padding: 40px 90px;
+}
+
+.TS1{
+    color:rgb(90, 82, 82);
+    font-size: 17px;
+    padding: 5px 0px 5px 20px;
+}
+.tech{
+    display: flex;
+    width: 95%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+
+}
+.tech2{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0px 15px;
+    gap: 50px;
+}
+
+.logo{
+    height: 150px;
+    width: 200px;
+    object-fit:scale-down;
+}
+.logo1{
+    height: 200px;
+    width: 100px;
+    object-fit:scale-down;
+}
+.container5{
+    margin: 2px 32px;
+    border-bottom: 1px solid #ebebeb;
+}
+.heading5{
+    padding: 40px 90px;
+}
+.cont5 h3{
+    font-weight:bolder;
+    font-size: 100px;
+    color: pink;
+    padding: 10px 0px 10px 10px;
+}
+.p5{
+    color:rgb(90, 82, 82);
+    font-size: 13px;
+    padding: 10px 0px 10px 10px;
+}
+.p6{
+    color: black;
+    font-size: small;
+    font-weight: lighter;
+    padding: 0px 0px 20px 10px;
+}
+.footer{
+ padding: 30px 400px;
+
 }
